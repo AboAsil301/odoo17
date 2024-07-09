@@ -1,0 +1,23 @@
+2024-07-07 09:49:34,390 21206 INFO ? odoo: Odoo version 17.0 
+2024-07-07 09:49:34,390 21206 INFO ? odoo: Using configuration file at /home/ahmed/Documents/Laplace/Projects/odoo17/odoo.conf 
+2024-07-07 09:49:34,390 21206 INFO ? odoo: addons paths: ['/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons', '/home/ahmed/.local/share/Odoo/addons/17.0', '/home/ahmed/Documents/Laplace/Projects/odoo17/addons', '/home/ahmed/Documents/Laplace/Projects/odoo17/addons_sms'] 
+2024-07-07 09:49:34,391 21206 INFO ? odoo: database: odoo@default:default 
+2024-07-07 09:49:34,464 21206 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2024-07-07 09:49:34,569 21206 INFO ? odoo.service.server: HTTP service (werkzeug) running on ahmed-HP-ZBook-15-G6:8069 
+2024-07-07 09:49:35,788 21206 INFO LP_TEST odoo.modules.loading: loading 1 modules... 
+2024-07-07 09:49:35,812 21206 INFO LP_TEST odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2024-07-07 09:49:35,827 21206 WARNING LP_TEST odoo.modules.module: Missing `license` key in manifest for 'sms_module', defaulting to LGPL-3 
+2024-07-07 09:49:35,833 21206 INFO LP_TEST odoo.modules.loading: loading 12 modules... 
+2024-07-07 09:49:35,833 21206 INFO LP_TEST odoo.modules.loading: Loading module sms_module (2/12) 
+2024-07-07 09:49:35,929 21206 INFO LP_TEST odoo.modules.loading: loading sms_module/views/views.xml 
+2024-07-07 09:49:35,930 21206 INFO LP_TEST odoo.modules.loading: loading sms_module/views/templates.xml 
+2024-07-07 09:49:35,952 21206 INFO LP_TEST odoo.modules.loading: Module sms_module loaded in 0.12s, 14 queries (+14 other) 
+2024-07-07 09:49:35,994 21206 INFO LP_TEST odoo.modules.loading: 12 modules loaded in 0.16s, 14 queries (+14 extra) 
+2024-07-07 09:49:36,051 21206 INFO LP_TEST odoo.modules.loading: Modules loaded. 
+2024-07-07 09:49:36,053 21206 INFO LP_TEST odoo.modules.registry: Registry loaded in 0.320s 
+2024-07-07 09:49:36,053 21206 INFO LP_TEST odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-07-07 09:49:36,076 21206 INFO LP_TEST werkzeug: 127.0.0.1 - - [07/Jul/2024 09:49:36] "GET /websocket HTTP/1.1" 101 - 142 0.061 0.286
+2024-07-07 09:49:36,088 21206 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-07-07 09:49:50,424 21206 INFO ? odoo.service.server: Initiating shutdown 
+2024-07-07 09:49:50,424 21206 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-07-07 09:49:50,798 21206 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 4 connections  
