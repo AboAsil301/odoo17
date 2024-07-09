@@ -1,23 +1,1671 @@
-2024-07-07 09:49:34,390 21206 INFO ? odoo: Odoo version 17.0 
-2024-07-07 09:49:34,390 21206 INFO ? odoo: Using configuration file at /home/ahmed/Documents/Laplace/Projects/odoo17/odoo.conf 
-2024-07-07 09:49:34,390 21206 INFO ? odoo: addons paths: ['/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons', '/home/ahmed/.local/share/Odoo/addons/17.0', '/home/ahmed/Documents/Laplace/Projects/odoo17/addons', '/home/ahmed/Documents/Laplace/Projects/odoo17/addons_sms'] 
-2024-07-07 09:49:34,391 21206 INFO ? odoo: database: odoo@default:default 
-2024-07-07 09:49:34,464 21206 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
-2024-07-07 09:49:34,569 21206 INFO ? odoo.service.server: HTTP service (werkzeug) running on ahmed-HP-ZBook-15-G6:8069 
-2024-07-07 09:49:35,788 21206 INFO LP_TEST odoo.modules.loading: loading 1 modules... 
-2024-07-07 09:49:35,812 21206 INFO LP_TEST odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
-2024-07-07 09:49:35,827 21206 WARNING LP_TEST odoo.modules.module: Missing `license` key in manifest for 'sms_module', defaulting to LGPL-3 
-2024-07-07 09:49:35,833 21206 INFO LP_TEST odoo.modules.loading: loading 12 modules... 
-2024-07-07 09:49:35,833 21206 INFO LP_TEST odoo.modules.loading: Loading module sms_module (2/12) 
-2024-07-07 09:49:35,929 21206 INFO LP_TEST odoo.modules.loading: loading sms_module/views/views.xml 
-2024-07-07 09:49:35,930 21206 INFO LP_TEST odoo.modules.loading: loading sms_module/views/templates.xml 
-2024-07-07 09:49:35,952 21206 INFO LP_TEST odoo.modules.loading: Module sms_module loaded in 0.12s, 14 queries (+14 other) 
-2024-07-07 09:49:35,994 21206 INFO LP_TEST odoo.modules.loading: 12 modules loaded in 0.16s, 14 queries (+14 extra) 
-2024-07-07 09:49:36,051 21206 INFO LP_TEST odoo.modules.loading: Modules loaded. 
-2024-07-07 09:49:36,053 21206 INFO LP_TEST odoo.modules.registry: Registry loaded in 0.320s 
-2024-07-07 09:49:36,053 21206 INFO LP_TEST odoo.addons.base.models.ir_http: Generating routing map for key None 
-2024-07-07 09:49:36,076 21206 INFO LP_TEST werkzeug: 127.0.0.1 - - [07/Jul/2024 09:49:36] "GET /websocket HTTP/1.1" 101 - 142 0.061 0.286
-2024-07-07 09:49:36,088 21206 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
-2024-07-07 09:49:50,424 21206 INFO ? odoo.service.server: Initiating shutdown 
-2024-07-07 09:49:50,424 21206 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
-2024-07-07 09:49:50,798 21206 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 4 connections  
+2024-07-09 10:01:02,518 25567 INFO ? odoo: Odoo version 17.0 
+2024-07-09 10:01:02,518 25567 INFO ? odoo: Using configuration file at /home/ahmed/Documents/Laplace/Projects/odoo17/odoo.conf 
+2024-07-09 10:01:02,518 25567 INFO ? odoo: addons paths: ['/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons', '/home/ahmed/.local/share/Odoo/addons/17.0', '/home/ahmed/Documents/Laplace/Projects/odoo17/addons', '/home/ahmed/Documents/Laplace/Projects/odoo17/addons_sms'] 
+2024-07-09 10:01:02,518 25567 INFO ? odoo: database: odoo@default:default 
+2024-07-09 10:01:02,594 25567 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2024-07-09 10:01:02,710 25567 INFO ? odoo.service.server: HTTP service (werkzeug) running on ahmed-HP-ZBook-15-G6:8069 
+2024-07-09 10:02:28,460 25567 INFO LP_TEST odoo.modules.loading: loading 1 modules... 
+2024-07-09 10:02:28,469 25567 INFO LP_TEST odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-09 10:02:28,473 25567 WARNING LP_TEST odoo.modules.module: Missing `license` key in manifest for 'sms_module', defaulting to LGPL-3 
+2024-07-09 10:02:28,475 25567 INFO LP_TEST odoo.modules.loading: loading 12 modules... 
+2024-07-09 10:02:28,475 25567 INFO LP_TEST odoo.modules.loading: Loading module sms_module (2/12) 
+2024-07-09 10:02:28,505 25567 INFO LP_TEST odoo.modules.loading: loading sms_module/views/views.xml 
+2024-07-09 10:02:28,506 25567 INFO LP_TEST odoo.modules.loading: loading sms_module/views/templates.xml 
+2024-07-09 10:02:28,533 25567 INFO LP_TEST odoo.modules.loading: Module sms_module loaded in 0.06s, 14 queries (+14 other) 
+2024-07-09 10:02:28,574 25567 INFO LP_TEST odoo.modules.loading: 12 modules loaded in 0.10s, 14 queries (+14 extra) 
+2024-07-09 10:02:28,632 25567 INFO LP_TEST odoo.modules.loading: Model sms_module.student is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:02:28,632 25567 INFO LP_TEST odoo.modules.loading: Model sms_module.course is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:02:28,632 25567 INFO LP_TEST odoo.modules.loading: Model sms_module.enrollment is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:02:28,632 25567 INFO LP_TEST odoo.modules.loading: Model sms_module.grade is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:02:28,632 25567 INFO LP_TEST odoo.modules.loading: Model sms_module.attendance is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:02:28,633 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 347@ir.model.constraint (sms_module.constraint_sms_module_attendance_unique_attendance) 
+2024-07-09 10:02:28,635 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_attendance_unique_attendance@sms_module.attendance 
+2024-07-09 10:02:28,642 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6696] 
+2024-07-09 10:02:28,643 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [347] 
+2024-07-09 10:02:28,643 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 346@ir.model.constraint (sms_module.constraint_sms_module_enrollment_unique_enrollment) 
+2024-07-09 10:02:28,645 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_enrollment_unique_enrollment@sms_module.enrollment 
+2024-07-09 10:02:28,649 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6695] 
+2024-07-09 10:02:28,649 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [346] 
+2024-07-09 10:02:28,649 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 345@ir.model.constraint (sms_module.constraint_sms_module_student_unique_student_id) 
+2024-07-09 10:02:28,650 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_student_unique_student_id@sms_module.student 
+2024-07-09 10:02:28,654 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6694] 
+2024-07-09 10:02:28,654 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [345] 
+2024-07-09 10:02:28,654 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 261@ir.model.fields.selection (sms_module.selection__sms_module_attendance__status__absent) 
+2024-07-09 10:02:28,657 25567 WARNING LP_TEST odoo.modules.loading: Transient module states were reset 
+2024-07-09 10:02:28,657 25567 ERROR LP_TEST odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 87, in __new__
+    return cls.registries[db_name]
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "<decorator-gen-5>", line 2, in __getitem__
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+        ~~~~~~^^^^^
+KeyError: 'LP_TEST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 113, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/loading.py", line 536, in load_modules
+    env['ir.model.data']._process_end(processed_modules)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2558, in _process_end
+    self._process_end_unlink_record(record)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2487, in _process_end_unlink_record
+    record.unlink()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1642, in unlink
+    self._process_ondelete()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1680, in _process_ondelete
+    Model = self.env[selection.field_id.model]
+            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/api.py", line 534, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 213, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'sms_module.attendance'
+2024-07-09 10:02:28,658 25567 ERROR LP_TEST odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 87, in __new__
+    return cls.registries[db_name]
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "<decorator-gen-5>", line 2, in __getitem__
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+        ~~~~~~^^^^^
+KeyError: 'LP_TEST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/http.py", line 2173, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/http.py", line 1727, in _serve_db
+    self.registry = Registry(self.db).check_signaling()
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 89, in __new__
+    return cls.new(db_name)
+           ^^^^^^^^^^^^^^^^
+  File "<decorator-gen-16>", line 2, in new
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 113, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/loading.py", line 536, in load_modules
+    env['ir.model.data']._process_end(processed_modules)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2558, in _process_end
+    self._process_end_unlink_record(record)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2487, in _process_end_unlink_record
+    record.unlink()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1642, in unlink
+    self._process_ondelete()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1680, in _process_ondelete
+    Model = self.env[selection.field_id.model]
+            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/api.py", line 534, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 213, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'sms_module.attendance'
+2024-07-09 10:02:28,660 25567 INFO LP_TEST werkzeug: 127.0.0.1 - - [09/Jul/2024 10:02:28] "GET / HTTP/1.1" 500 - 192 0.053 0.192
+2024-07-09 10:02:28,791 25567 INFO LP_TEST odoo.modules.loading: loading 1 modules... 
+2024-07-09 10:02:28,798 25567 INFO LP_TEST odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-09 10:02:28,800 25567 INFO LP_TEST odoo.modules.loading: loading 12 modules... 
+2024-07-09 10:02:28,800 25567 INFO LP_TEST odoo.modules.loading: Loading module sms_module (2/12) 
+2024-07-09 10:02:28,833 25567 INFO LP_TEST odoo.modules.loading: loading sms_module/views/views.xml 
+2024-07-09 10:02:28,834 25567 INFO LP_TEST odoo.modules.loading: loading sms_module/views/templates.xml 
+2024-07-09 10:02:28,853 25567 INFO LP_TEST odoo.modules.loading: Module sms_module loaded in 0.05s, 14 queries (+14 other) 
+2024-07-09 10:02:28,861 25567 INFO LP_TEST odoo.modules.loading: 12 modules loaded in 0.06s, 14 queries (+14 extra) 
+2024-07-09 10:02:28,927 25567 INFO LP_TEST odoo.modules.loading: Model sms_module.student is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:02:28,927 25567 INFO LP_TEST odoo.modules.loading: Model sms_module.course is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:02:28,927 25567 INFO LP_TEST odoo.modules.loading: Model sms_module.enrollment is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:02:28,927 25567 INFO LP_TEST odoo.modules.loading: Model sms_module.grade is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:02:28,927 25567 INFO LP_TEST odoo.modules.loading: Model sms_module.attendance is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:02:28,928 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 347@ir.model.constraint (sms_module.constraint_sms_module_attendance_unique_attendance) 
+2024-07-09 10:02:28,930 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_attendance_unique_attendance@sms_module.attendance 
+2024-07-09 10:02:28,937 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6696] 
+2024-07-09 10:02:28,937 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [347] 
+2024-07-09 10:02:28,938 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 346@ir.model.constraint (sms_module.constraint_sms_module_enrollment_unique_enrollment) 
+2024-07-09 10:02:28,940 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_enrollment_unique_enrollment@sms_module.enrollment 
+2024-07-09 10:02:28,944 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6695] 
+2024-07-09 10:02:28,944 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [346] 
+2024-07-09 10:02:28,944 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 345@ir.model.constraint (sms_module.constraint_sms_module_student_unique_student_id) 
+2024-07-09 10:02:28,946 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_student_unique_student_id@sms_module.student 
+2024-07-09 10:02:28,950 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6694] 
+2024-07-09 10:02:28,950 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [345] 
+2024-07-09 10:02:28,950 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 261@ir.model.fields.selection (sms_module.selection__sms_module_attendance__status__absent) 
+2024-07-09 10:02:28,952 25567 WARNING LP_TEST odoo.modules.loading: Transient module states were reset 
+2024-07-09 10:02:28,952 25567 ERROR LP_TEST odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 87, in __new__
+    return cls.registries[db_name]
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "<decorator-gen-5>", line 2, in __getitem__
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+        ~~~~~~^^^^^
+KeyError: 'LP_TEST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 113, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/loading.py", line 536, in load_modules
+    env['ir.model.data']._process_end(processed_modules)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2558, in _process_end
+    self._process_end_unlink_record(record)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2487, in _process_end_unlink_record
+    record.unlink()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1642, in unlink
+    self._process_ondelete()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1680, in _process_ondelete
+    Model = self.env[selection.field_id.model]
+            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/api.py", line 534, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 213, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'sms_module.attendance'
+2024-07-09 10:02:28,953 25567 ERROR LP_TEST odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 87, in __new__
+    return cls.registries[db_name]
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "<decorator-gen-5>", line 2, in __getitem__
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+        ~~~~~~^^^^^
+KeyError: 'LP_TEST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/http.py", line 2173, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/http.py", line 1727, in _serve_db
+    self.registry = Registry(self.db).check_signaling()
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 89, in __new__
+    return cls.new(db_name)
+           ^^^^^^^^^^^^^^^^
+  File "<decorator-gen-16>", line 2, in new
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 113, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/loading.py", line 536, in load_modules
+    env['ir.model.data']._process_end(processed_modules)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2558, in _process_end
+    self._process_end_unlink_record(record)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2487, in _process_end_unlink_record
+    record.unlink()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1642, in unlink
+    self._process_ondelete()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1680, in _process_ondelete
+    Model = self.env[selection.field_id.model]
+            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/api.py", line 534, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 213, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'sms_module.attendance'
+2024-07-09 10:02:28,954 25567 INFO LP_TEST werkzeug: 127.0.0.1 - - [09/Jul/2024 10:02:28] "GET /favicon.ico HTTP/1.1" 500 - 192 0.054 0.113
+2024-07-09 10:02:29,988 25567 INFO LP_TEST odoo.modules.loading: loading 1 modules... 
+2024-07-09 10:02:30,007 25567 INFO LP_TEST odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2024-07-09 10:02:30,010 25567 INFO LP_TEST odoo.modules.loading: loading 12 modules... 
+2024-07-09 10:02:30,010 25567 INFO LP_TEST odoo.modules.loading: Loading module sms_module (2/12) 
+2024-07-09 10:02:30,042 25567 INFO LP_TEST odoo.modules.loading: loading sms_module/views/views.xml 
+2024-07-09 10:02:30,043 25567 INFO LP_TEST odoo.modules.loading: loading sms_module/views/templates.xml 
+2024-07-09 10:02:30,060 25567 INFO LP_TEST odoo.modules.loading: Module sms_module loaded in 0.05s, 14 queries (+14 other) 
+2024-07-09 10:02:30,066 25567 INFO LP_TEST odoo.modules.loading: 12 modules loaded in 0.06s, 14 queries (+14 extra) 
+2024-07-09 10:02:30,121 25567 INFO LP_TEST odoo.modules.loading: Model sms_module.student is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:02:30,122 25567 INFO LP_TEST odoo.modules.loading: Model sms_module.course is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:02:30,122 25567 INFO LP_TEST odoo.modules.loading: Model sms_module.enrollment is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:02:30,122 25567 INFO LP_TEST odoo.modules.loading: Model sms_module.grade is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:02:30,122 25567 INFO LP_TEST odoo.modules.loading: Model sms_module.attendance is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:02:30,122 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 347@ir.model.constraint (sms_module.constraint_sms_module_attendance_unique_attendance) 
+2024-07-09 10:02:30,124 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_attendance_unique_attendance@sms_module.attendance 
+2024-07-09 10:02:30,132 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6696] 
+2024-07-09 10:02:30,132 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [347] 
+2024-07-09 10:02:30,132 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 346@ir.model.constraint (sms_module.constraint_sms_module_enrollment_unique_enrollment) 
+2024-07-09 10:02:30,134 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_enrollment_unique_enrollment@sms_module.enrollment 
+2024-07-09 10:02:30,138 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6695] 
+2024-07-09 10:02:30,138 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [346] 
+2024-07-09 10:02:30,139 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 345@ir.model.constraint (sms_module.constraint_sms_module_student_unique_student_id) 
+2024-07-09 10:02:30,140 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_student_unique_student_id@sms_module.student 
+2024-07-09 10:02:30,144 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6694] 
+2024-07-09 10:02:30,145 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [345] 
+2024-07-09 10:02:30,145 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 261@ir.model.fields.selection (sms_module.selection__sms_module_attendance__status__absent) 
+2024-07-09 10:02:30,148 25567 WARNING LP_TEST odoo.modules.loading: Transient module states were reset 
+2024-07-09 10:02:30,148 25567 ERROR LP_TEST odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 87, in __new__
+    return cls.registries[db_name]
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "<decorator-gen-5>", line 2, in __getitem__
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+        ~~~~~~^^^^^
+KeyError: 'LP_TEST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 113, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/loading.py", line 536, in load_modules
+    env['ir.model.data']._process_end(processed_modules)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2558, in _process_end
+    self._process_end_unlink_record(record)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2487, in _process_end_unlink_record
+    record.unlink()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1642, in unlink
+    self._process_ondelete()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1680, in _process_ondelete
+    Model = self.env[selection.field_id.model]
+            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/api.py", line 534, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 213, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'sms_module.attendance'
+2024-07-09 10:02:30,149 25567 ERROR LP_TEST odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 87, in __new__
+    return cls.registries[db_name]
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "<decorator-gen-5>", line 2, in __getitem__
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+        ~~~~~~^^^^^
+KeyError: 'LP_TEST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/http.py", line 2173, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/http.py", line 1727, in _serve_db
+    self.registry = Registry(self.db).check_signaling()
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 89, in __new__
+    return cls.new(db_name)
+           ^^^^^^^^^^^^^^^^
+  File "<decorator-gen-16>", line 2, in new
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 113, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/loading.py", line 536, in load_modules
+    env['ir.model.data']._process_end(processed_modules)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2558, in _process_end
+    self._process_end_unlink_record(record)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2487, in _process_end_unlink_record
+    record.unlink()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1642, in unlink
+    self._process_ondelete()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1680, in _process_ondelete
+    Model = self.env[selection.field_id.model]
+            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/api.py", line 534, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 213, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'sms_module.attendance'
+2024-07-09 10:02:30,150 25567 INFO LP_TEST werkzeug: 127.0.0.1 - - [09/Jul/2024 10:02:30] "GET / HTTP/1.1" 500 - 192 0.051 0.121
+2024-07-09 10:02:30,263 25567 INFO LP_TEST odoo.modules.loading: loading 1 modules... 
+2024-07-09 10:02:30,272 25567 INFO LP_TEST odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-09 10:02:30,274 25567 INFO LP_TEST odoo.modules.loading: loading 12 modules... 
+2024-07-09 10:02:30,274 25567 INFO LP_TEST odoo.modules.loading: Loading module sms_module (2/12) 
+2024-07-09 10:02:30,304 25567 INFO LP_TEST odoo.modules.loading: loading sms_module/views/views.xml 
+2024-07-09 10:02:30,305 25567 INFO LP_TEST odoo.modules.loading: loading sms_module/views/templates.xml 
+2024-07-09 10:02:30,324 25567 INFO LP_TEST odoo.modules.loading: Module sms_module loaded in 0.05s, 14 queries (+14 other) 
+2024-07-09 10:02:30,332 25567 INFO LP_TEST odoo.modules.loading: 12 modules loaded in 0.06s, 14 queries (+14 extra) 
+2024-07-09 10:02:30,403 25567 INFO LP_TEST odoo.modules.loading: Model sms_module.student is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:02:30,403 25567 INFO LP_TEST odoo.modules.loading: Model sms_module.course is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:02:30,403 25567 INFO LP_TEST odoo.modules.loading: Model sms_module.enrollment is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:02:30,403 25567 INFO LP_TEST odoo.modules.loading: Model sms_module.grade is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:02:30,403 25567 INFO LP_TEST odoo.modules.loading: Model sms_module.attendance is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:02:30,404 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 347@ir.model.constraint (sms_module.constraint_sms_module_attendance_unique_attendance) 
+2024-07-09 10:02:30,406 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_attendance_unique_attendance@sms_module.attendance 
+2024-07-09 10:02:30,413 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6696] 
+2024-07-09 10:02:30,414 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [347] 
+2024-07-09 10:02:30,414 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 346@ir.model.constraint (sms_module.constraint_sms_module_enrollment_unique_enrollment) 
+2024-07-09 10:02:30,416 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_enrollment_unique_enrollment@sms_module.enrollment 
+2024-07-09 10:02:30,421 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6695] 
+2024-07-09 10:02:30,421 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [346] 
+2024-07-09 10:02:30,421 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 345@ir.model.constraint (sms_module.constraint_sms_module_student_unique_student_id) 
+2024-07-09 10:02:30,423 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_student_unique_student_id@sms_module.student 
+2024-07-09 10:02:30,427 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6694] 
+2024-07-09 10:02:30,427 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [345] 
+2024-07-09 10:02:30,427 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 261@ir.model.fields.selection (sms_module.selection__sms_module_attendance__status__absent) 
+2024-07-09 10:02:30,430 25567 WARNING LP_TEST odoo.modules.loading: Transient module states were reset 
+2024-07-09 10:02:30,430 25567 ERROR LP_TEST odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 87, in __new__
+    return cls.registries[db_name]
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "<decorator-gen-5>", line 2, in __getitem__
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+        ~~~~~~^^^^^
+KeyError: 'LP_TEST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 113, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/loading.py", line 536, in load_modules
+    env['ir.model.data']._process_end(processed_modules)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2558, in _process_end
+    self._process_end_unlink_record(record)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2487, in _process_end_unlink_record
+    record.unlink()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1642, in unlink
+    self._process_ondelete()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1680, in _process_ondelete
+    Model = self.env[selection.field_id.model]
+            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/api.py", line 534, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 213, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'sms_module.attendance'
+2024-07-09 10:02:30,431 25567 ERROR LP_TEST odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 87, in __new__
+    return cls.registries[db_name]
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "<decorator-gen-5>", line 2, in __getitem__
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+        ~~~~~~^^^^^
+KeyError: 'LP_TEST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/http.py", line 2173, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/http.py", line 1727, in _serve_db
+    self.registry = Registry(self.db).check_signaling()
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 89, in __new__
+    return cls.new(db_name)
+           ^^^^^^^^^^^^^^^^
+  File "<decorator-gen-16>", line 2, in new
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 113, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/loading.py", line 536, in load_modules
+    env['ir.model.data']._process_end(processed_modules)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2558, in _process_end
+    self._process_end_unlink_record(record)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2487, in _process_end_unlink_record
+    record.unlink()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1642, in unlink
+    self._process_ondelete()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1680, in _process_ondelete
+    Model = self.env[selection.field_id.model]
+            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/api.py", line 534, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 213, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'sms_module.attendance'
+2024-07-09 10:02:30,432 25567 INFO LP_TEST werkzeug: 127.0.0.1 - - [09/Jul/2024 10:02:30] "GET /favicon.ico HTTP/1.1" 500 - 192 0.060 0.112
+2024-07-09 10:33:42,275 25567 INFO LP_TEST odoo.modules.loading: loading 1 modules... 
+2024-07-09 10:33:42,286 25567 INFO LP_TEST odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-09 10:33:42,289 25567 INFO LP_TEST odoo.modules.loading: loading 12 modules... 
+2024-07-09 10:33:42,289 25567 INFO LP_TEST odoo.modules.loading: Loading module sms_module (2/12) 
+2024-07-09 10:33:42,327 25567 INFO LP_TEST odoo.modules.loading: loading sms_module/views/views.xml 
+2024-07-09 10:33:42,328 25567 INFO LP_TEST odoo.modules.loading: loading sms_module/views/templates.xml 
+2024-07-09 10:33:42,345 25567 INFO LP_TEST odoo.modules.loading: Module sms_module loaded in 0.06s, 14 queries (+14 other) 
+2024-07-09 10:33:42,351 25567 INFO LP_TEST odoo.modules.loading: 12 modules loaded in 0.06s, 14 queries (+14 extra) 
+2024-07-09 10:33:42,402 25567 INFO LP_TEST odoo.modules.loading: Model sms_module.student is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:33:42,402 25567 INFO LP_TEST odoo.modules.loading: Model sms_module.course is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:33:42,402 25567 INFO LP_TEST odoo.modules.loading: Model sms_module.enrollment is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:33:42,402 25567 INFO LP_TEST odoo.modules.loading: Model sms_module.grade is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:33:42,402 25567 INFO LP_TEST odoo.modules.loading: Model sms_module.attendance is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:33:42,403 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 347@ir.model.constraint (sms_module.constraint_sms_module_attendance_unique_attendance) 
+2024-07-09 10:33:42,406 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_attendance_unique_attendance@sms_module.attendance 
+2024-07-09 10:33:42,413 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6696] 
+2024-07-09 10:33:42,413 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [347] 
+2024-07-09 10:33:42,414 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 346@ir.model.constraint (sms_module.constraint_sms_module_enrollment_unique_enrollment) 
+2024-07-09 10:33:42,415 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_enrollment_unique_enrollment@sms_module.enrollment 
+2024-07-09 10:33:42,419 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6695] 
+2024-07-09 10:33:42,419 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [346] 
+2024-07-09 10:33:42,420 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 345@ir.model.constraint (sms_module.constraint_sms_module_student_unique_student_id) 
+2024-07-09 10:33:42,421 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_student_unique_student_id@sms_module.student 
+2024-07-09 10:33:42,425 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6694] 
+2024-07-09 10:33:42,425 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [345] 
+2024-07-09 10:33:42,426 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 261@ir.model.fields.selection (sms_module.selection__sms_module_attendance__status__absent) 
+2024-07-09 10:33:42,428 25567 WARNING LP_TEST odoo.modules.loading: Transient module states were reset 
+2024-07-09 10:33:42,429 25567 ERROR LP_TEST odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 87, in __new__
+    return cls.registries[db_name]
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "<decorator-gen-5>", line 2, in __getitem__
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+        ~~~~~~^^^^^
+KeyError: 'LP_TEST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 113, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/loading.py", line 536, in load_modules
+    env['ir.model.data']._process_end(processed_modules)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2558, in _process_end
+    self._process_end_unlink_record(record)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2487, in _process_end_unlink_record
+    record.unlink()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1642, in unlink
+    self._process_ondelete()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1680, in _process_ondelete
+    Model = self.env[selection.field_id.model]
+            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/api.py", line 534, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 213, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'sms_module.attendance'
+2024-07-09 10:33:42,429 25567 ERROR LP_TEST odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 87, in __new__
+    return cls.registries[db_name]
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "<decorator-gen-5>", line 2, in __getitem__
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+        ~~~~~~^^^^^
+KeyError: 'LP_TEST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/http.py", line 2173, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/http.py", line 1727, in _serve_db
+    self.registry = Registry(self.db).check_signaling()
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 89, in __new__
+    return cls.new(db_name)
+           ^^^^^^^^^^^^^^^^
+  File "<decorator-gen-16>", line 2, in new
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 113, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/loading.py", line 536, in load_modules
+    env['ir.model.data']._process_end(processed_modules)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2558, in _process_end
+    self._process_end_unlink_record(record)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2487, in _process_end_unlink_record
+    record.unlink()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1642, in unlink
+    self._process_ondelete()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1680, in _process_ondelete
+    Model = self.env[selection.field_id.model]
+            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/api.py", line 534, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 213, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'sms_module.attendance'
+2024-07-09 10:33:42,430 25567 INFO LP_TEST werkzeug: 127.0.0.1 - - [09/Jul/2024 10:33:42] "GET / HTTP/1.1" 500 - 192 0.050 0.142
+2024-07-09 10:33:42,561 25567 INFO LP_TEST odoo.modules.loading: loading 1 modules... 
+2024-07-09 10:33:42,568 25567 INFO LP_TEST odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-09 10:33:42,571 25567 INFO LP_TEST odoo.modules.loading: loading 12 modules... 
+2024-07-09 10:33:42,571 25567 INFO LP_TEST odoo.modules.loading: Loading module sms_module (2/12) 
+2024-07-09 10:33:42,599 25567 INFO LP_TEST odoo.modules.loading: loading sms_module/views/views.xml 
+2024-07-09 10:33:42,600 25567 INFO LP_TEST odoo.modules.loading: loading sms_module/views/templates.xml 
+2024-07-09 10:33:42,620 25567 INFO LP_TEST odoo.modules.loading: Module sms_module loaded in 0.05s, 14 queries (+14 other) 
+2024-07-09 10:33:42,631 25567 INFO LP_TEST odoo.modules.loading: 12 modules loaded in 0.06s, 14 queries (+14 extra) 
+2024-07-09 10:33:42,705 25567 INFO LP_TEST odoo.modules.loading: Model sms_module.student is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:33:42,706 25567 INFO LP_TEST odoo.modules.loading: Model sms_module.course is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:33:42,706 25567 INFO LP_TEST odoo.modules.loading: Model sms_module.enrollment is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:33:42,706 25567 INFO LP_TEST odoo.modules.loading: Model sms_module.grade is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:33:42,706 25567 INFO LP_TEST odoo.modules.loading: Model sms_module.attendance is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:33:42,707 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 347@ir.model.constraint (sms_module.constraint_sms_module_attendance_unique_attendance) 
+2024-07-09 10:33:42,710 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_attendance_unique_attendance@sms_module.attendance 
+2024-07-09 10:33:42,718 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6696] 
+2024-07-09 10:33:42,718 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [347] 
+2024-07-09 10:33:42,719 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 346@ir.model.constraint (sms_module.constraint_sms_module_enrollment_unique_enrollment) 
+2024-07-09 10:33:42,721 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_enrollment_unique_enrollment@sms_module.enrollment 
+2024-07-09 10:33:42,726 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6695] 
+2024-07-09 10:33:42,726 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [346] 
+2024-07-09 10:33:42,726 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 345@ir.model.constraint (sms_module.constraint_sms_module_student_unique_student_id) 
+2024-07-09 10:33:42,728 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_student_unique_student_id@sms_module.student 
+2024-07-09 10:33:42,731 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6694] 
+2024-07-09 10:33:42,731 25567 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [345] 
+2024-07-09 10:33:42,732 25567 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 261@ir.model.fields.selection (sms_module.selection__sms_module_attendance__status__absent) 
+2024-07-09 10:33:42,734 25567 WARNING LP_TEST odoo.modules.loading: Transient module states were reset 
+2024-07-09 10:33:42,734 25567 ERROR LP_TEST odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 87, in __new__
+    return cls.registries[db_name]
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "<decorator-gen-5>", line 2, in __getitem__
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+        ~~~~~~^^^^^
+KeyError: 'LP_TEST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 113, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/loading.py", line 536, in load_modules
+    env['ir.model.data']._process_end(processed_modules)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2558, in _process_end
+    self._process_end_unlink_record(record)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2487, in _process_end_unlink_record
+    record.unlink()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1642, in unlink
+    self._process_ondelete()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1680, in _process_ondelete
+    Model = self.env[selection.field_id.model]
+            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/api.py", line 534, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 213, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'sms_module.attendance'
+2024-07-09 10:33:42,734 25567 ERROR LP_TEST odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 87, in __new__
+    return cls.registries[db_name]
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "<decorator-gen-5>", line 2, in __getitem__
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+        ~~~~~~^^^^^
+KeyError: 'LP_TEST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/http.py", line 2173, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/http.py", line 1727, in _serve_db
+    self.registry = Registry(self.db).check_signaling()
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 89, in __new__
+    return cls.new(db_name)
+           ^^^^^^^^^^^^^^^^
+  File "<decorator-gen-16>", line 2, in new
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 113, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/loading.py", line 536, in load_modules
+    env['ir.model.data']._process_end(processed_modules)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2558, in _process_end
+    self._process_end_unlink_record(record)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2487, in _process_end_unlink_record
+    record.unlink()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1642, in unlink
+    self._process_ondelete()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1680, in _process_ondelete
+    Model = self.env[selection.field_id.model]
+            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/api.py", line 534, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 213, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'sms_module.attendance'
+2024-07-09 10:33:42,735 25567 INFO LP_TEST werkzeug: 127.0.0.1 - - [09/Jul/2024 10:33:42] "GET /favicon.ico HTTP/1.1" 500 - 192 0.050 0.127
+2024-07-09 10:35:32,272 25567 INFO ? odoo.service.server: Initiating shutdown 
+2024-07-09 10:35:32,272 25567 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-07-09 10:35:32,343 25567 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 3 connections  
+2024-07-09 10:37:54,329 28018 INFO ? odoo: Odoo version 17.0 
+2024-07-09 10:37:54,329 28018 INFO ? odoo: Using configuration file at /home/ahmed/Documents/Laplace/Projects/odoo17/odoo.conf 
+2024-07-09 10:37:54,329 28018 INFO ? odoo: addons paths: ['/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons', '/home/ahmed/.local/share/Odoo/addons/17.0', '/home/ahmed/Documents/Laplace/Projects/odoo17/addons', '/home/ahmed/Documents/Laplace/Projects/odoo17/addons_sms'] 
+2024-07-09 10:37:54,329 28018 INFO ? odoo: database: odoo@default:default 
+2024-07-09 10:37:54,403 28018 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2024-07-09 10:37:54,508 28018 INFO ? odoo.service.server: HTTP service (werkzeug) running on ahmed-HP-ZBook-15-G6:8069 
+2024-07-09 10:38:00,227 28018 INFO LP_TEST odoo.modules.loading: loading 1 modules... 
+2024-07-09 10:38:00,235 28018 INFO LP_TEST odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-09 10:38:00,240 28018 WARNING LP_TEST odoo.modules.module: Missing `license` key in manifest for 'sms_module', defaulting to LGPL-3 
+2024-07-09 10:38:00,241 28018 INFO LP_TEST odoo.modules.loading: loading 12 modules... 
+2024-07-09 10:38:00,241 28018 INFO LP_TEST odoo.modules.loading: Loading module sms_module (2/12) 
+2024-07-09 10:38:00,270 28018 INFO LP_TEST odoo.modules.loading: loading sms_module/views/views.xml 
+2024-07-09 10:38:00,271 28018 INFO LP_TEST odoo.modules.loading: loading sms_module/views/templates.xml 
+2024-07-09 10:38:00,298 28018 INFO LP_TEST odoo.modules.loading: Module sms_module loaded in 0.06s, 14 queries (+14 other) 
+2024-07-09 10:38:00,350 28018 INFO LP_TEST odoo.modules.loading: 12 modules loaded in 0.11s, 14 queries (+14 extra) 
+2024-07-09 10:38:00,403 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.student is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:38:00,403 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.course is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:38:00,403 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.enrollment is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:38:00,403 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.grade is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:38:00,404 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.attendance is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:38:00,404 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 347@ir.model.constraint (sms_module.constraint_sms_module_attendance_unique_attendance) 
+2024-07-09 10:38:00,407 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_attendance_unique_attendance@sms_module.attendance 
+2024-07-09 10:38:00,414 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6696] 
+2024-07-09 10:38:00,415 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [347] 
+2024-07-09 10:38:00,415 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 346@ir.model.constraint (sms_module.constraint_sms_module_enrollment_unique_enrollment) 
+2024-07-09 10:38:00,417 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_enrollment_unique_enrollment@sms_module.enrollment 
+2024-07-09 10:38:00,422 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6695] 
+2024-07-09 10:38:00,422 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [346] 
+2024-07-09 10:38:00,422 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 345@ir.model.constraint (sms_module.constraint_sms_module_student_unique_student_id) 
+2024-07-09 10:38:00,424 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_student_unique_student_id@sms_module.student 
+2024-07-09 10:38:00,427 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6694] 
+2024-07-09 10:38:00,428 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [345] 
+2024-07-09 10:38:00,428 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 261@ir.model.fields.selection (sms_module.selection__sms_module_attendance__status__absent) 
+2024-07-09 10:38:00,431 28018 WARNING LP_TEST odoo.modules.loading: Transient module states were reset 
+2024-07-09 10:38:00,431 28018 ERROR LP_TEST odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 87, in __new__
+    return cls.registries[db_name]
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "<decorator-gen-5>", line 2, in __getitem__
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+        ~~~~~~^^^^^
+KeyError: 'LP_TEST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 113, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/loading.py", line 536, in load_modules
+    env['ir.model.data']._process_end(processed_modules)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2558, in _process_end
+    self._process_end_unlink_record(record)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2487, in _process_end_unlink_record
+    record.unlink()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1642, in unlink
+    self._process_ondelete()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1680, in _process_ondelete
+    Model = self.env[selection.field_id.model]
+            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/api.py", line 534, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 213, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'sms_module.attendance'
+2024-07-09 10:38:00,433 28018 ERROR LP_TEST odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 87, in __new__
+    return cls.registries[db_name]
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "<decorator-gen-5>", line 2, in __getitem__
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+        ~~~~~~^^^^^
+KeyError: 'LP_TEST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/http.py", line 2173, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/http.py", line 1727, in _serve_db
+    self.registry = Registry(self.db).check_signaling()
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 89, in __new__
+    return cls.new(db_name)
+           ^^^^^^^^^^^^^^^^
+  File "<decorator-gen-16>", line 2, in new
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 113, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/loading.py", line 536, in load_modules
+    env['ir.model.data']._process_end(processed_modules)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2558, in _process_end
+    self._process_end_unlink_record(record)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2487, in _process_end_unlink_record
+    record.unlink()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1642, in unlink
+    self._process_ondelete()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1680, in _process_ondelete
+    Model = self.env[selection.field_id.model]
+            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/api.py", line 534, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 213, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'sms_module.attendance'
+2024-07-09 10:38:00,434 28018 INFO LP_TEST werkzeug: 127.0.0.1 - - [09/Jul/2024 10:38:00] "GET / HTTP/1.1" 500 - 192 0.053 0.194
+2024-07-09 10:38:00,698 28018 INFO LP_TEST odoo.modules.loading: loading 1 modules... 
+2024-07-09 10:38:00,704 28018 INFO LP_TEST odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-09 10:38:00,706 28018 INFO LP_TEST odoo.modules.loading: loading 12 modules... 
+2024-07-09 10:38:00,706 28018 INFO LP_TEST odoo.modules.loading: Loading module sms_module (2/12) 
+2024-07-09 10:38:00,737 28018 INFO LP_TEST odoo.modules.loading: loading sms_module/views/views.xml 
+2024-07-09 10:38:00,738 28018 INFO LP_TEST odoo.modules.loading: loading sms_module/views/templates.xml 
+2024-07-09 10:38:00,748 28018 INFO LP_TEST odoo.modules.loading: Module sms_module loaded in 0.04s, 14 queries (+14 other) 
+2024-07-09 10:38:00,757 28018 INFO LP_TEST odoo.modules.loading: 12 modules loaded in 0.05s, 14 queries (+14 extra) 
+2024-07-09 10:38:00,819 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.student is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:38:00,819 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.course is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:38:00,819 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.enrollment is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:38:00,819 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.grade is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:38:00,820 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.attendance is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:38:00,820 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 347@ir.model.constraint (sms_module.constraint_sms_module_attendance_unique_attendance) 
+2024-07-09 10:38:00,823 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_attendance_unique_attendance@sms_module.attendance 
+2024-07-09 10:38:00,830 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6696] 
+2024-07-09 10:38:00,830 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [347] 
+2024-07-09 10:38:00,830 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 346@ir.model.constraint (sms_module.constraint_sms_module_enrollment_unique_enrollment) 
+2024-07-09 10:38:00,833 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_enrollment_unique_enrollment@sms_module.enrollment 
+2024-07-09 10:38:00,838 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6695] 
+2024-07-09 10:38:00,838 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [346] 
+2024-07-09 10:38:00,838 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 345@ir.model.constraint (sms_module.constraint_sms_module_student_unique_student_id) 
+2024-07-09 10:38:00,840 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_student_unique_student_id@sms_module.student 
+2024-07-09 10:38:00,845 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6694] 
+2024-07-09 10:38:00,845 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [345] 
+2024-07-09 10:38:00,846 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 261@ir.model.fields.selection (sms_module.selection__sms_module_attendance__status__absent) 
+2024-07-09 10:38:00,848 28018 WARNING LP_TEST odoo.modules.loading: Transient module states were reset 
+2024-07-09 10:38:00,848 28018 ERROR LP_TEST odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 87, in __new__
+    return cls.registries[db_name]
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "<decorator-gen-5>", line 2, in __getitem__
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+        ~~~~~~^^^^^
+KeyError: 'LP_TEST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 113, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/loading.py", line 536, in load_modules
+    env['ir.model.data']._process_end(processed_modules)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2558, in _process_end
+    self._process_end_unlink_record(record)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2487, in _process_end_unlink_record
+    record.unlink()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1642, in unlink
+    self._process_ondelete()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1680, in _process_ondelete
+    Model = self.env[selection.field_id.model]
+            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/api.py", line 534, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 213, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'sms_module.attendance'
+2024-07-09 10:38:00,849 28018 ERROR LP_TEST odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 87, in __new__
+    return cls.registries[db_name]
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "<decorator-gen-5>", line 2, in __getitem__
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+        ~~~~~~^^^^^
+KeyError: 'LP_TEST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/http.py", line 2173, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/http.py", line 1727, in _serve_db
+    self.registry = Registry(self.db).check_signaling()
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 89, in __new__
+    return cls.new(db_name)
+           ^^^^^^^^^^^^^^^^
+  File "<decorator-gen-16>", line 2, in new
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 113, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/loading.py", line 536, in load_modules
+    env['ir.model.data']._process_end(processed_modules)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2558, in _process_end
+    self._process_end_unlink_record(record)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2487, in _process_end_unlink_record
+    record.unlink()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1642, in unlink
+    self._process_ondelete()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1680, in _process_ondelete
+    Model = self.env[selection.field_id.model]
+            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/api.py", line 534, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 213, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'sms_module.attendance'
+2024-07-09 10:38:00,850 28018 INFO LP_TEST werkzeug: 127.0.0.1 - - [09/Jul/2024 10:38:00] "GET /favicon.ico HTTP/1.1" 500 - 192 0.050 0.105
+2024-07-09 10:39:49,364 28018 INFO LP_TEST odoo.modules.loading: loading 1 modules... 
+2024-07-09 10:39:49,388 28018 INFO LP_TEST odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2024-07-09 10:39:49,392 28018 INFO LP_TEST odoo.modules.loading: loading 12 modules... 
+2024-07-09 10:39:49,392 28018 INFO LP_TEST odoo.modules.loading: Loading module sms_module (2/12) 
+2024-07-09 10:39:49,425 28018 INFO LP_TEST odoo.modules.loading: loading sms_module/views/views.xml 
+2024-07-09 10:39:49,426 28018 INFO LP_TEST odoo.modules.loading: loading sms_module/views/templates.xml 
+2024-07-09 10:39:49,448 28018 INFO LP_TEST odoo.modules.loading: Module sms_module loaded in 0.06s, 14 queries (+14 other) 
+2024-07-09 10:39:49,457 28018 INFO LP_TEST odoo.modules.loading: 12 modules loaded in 0.06s, 14 queries (+14 extra) 
+2024-07-09 10:39:49,525 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.student is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:39:49,525 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.course is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:39:49,525 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.enrollment is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:39:49,525 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.grade is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:39:49,525 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.attendance is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:39:49,526 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 347@ir.model.constraint (sms_module.constraint_sms_module_attendance_unique_attendance) 
+2024-07-09 10:39:49,528 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_attendance_unique_attendance@sms_module.attendance 
+2024-07-09 10:39:49,535 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6696] 
+2024-07-09 10:39:49,535 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [347] 
+2024-07-09 10:39:49,536 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 346@ir.model.constraint (sms_module.constraint_sms_module_enrollment_unique_enrollment) 
+2024-07-09 10:39:49,538 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_enrollment_unique_enrollment@sms_module.enrollment 
+2024-07-09 10:39:49,542 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6695] 
+2024-07-09 10:39:49,542 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [346] 
+2024-07-09 10:39:49,543 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 345@ir.model.constraint (sms_module.constraint_sms_module_student_unique_student_id) 
+2024-07-09 10:39:49,544 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_student_unique_student_id@sms_module.student 
+2024-07-09 10:39:49,548 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6694] 
+2024-07-09 10:39:49,548 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [345] 
+2024-07-09 10:39:49,548 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 261@ir.model.fields.selection (sms_module.selection__sms_module_attendance__status__absent) 
+2024-07-09 10:39:49,550 28018 WARNING LP_TEST odoo.modules.loading: Transient module states were reset 
+2024-07-09 10:39:49,550 28018 ERROR LP_TEST odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 87, in __new__
+    return cls.registries[db_name]
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "<decorator-gen-5>", line 2, in __getitem__
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+        ~~~~~~^^^^^
+KeyError: 'LP_TEST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 113, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/loading.py", line 536, in load_modules
+    env['ir.model.data']._process_end(processed_modules)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2558, in _process_end
+    self._process_end_unlink_record(record)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2487, in _process_end_unlink_record
+    record.unlink()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1642, in unlink
+    self._process_ondelete()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1680, in _process_ondelete
+    Model = self.env[selection.field_id.model]
+            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/api.py", line 534, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 213, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'sms_module.attendance'
+2024-07-09 10:39:49,551 28018 ERROR LP_TEST odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 87, in __new__
+    return cls.registries[db_name]
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "<decorator-gen-5>", line 2, in __getitem__
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+        ~~~~~~^^^^^
+KeyError: 'LP_TEST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/http.py", line 2173, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/http.py", line 1727, in _serve_db
+    self.registry = Registry(self.db).check_signaling()
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 89, in __new__
+    return cls.new(db_name)
+           ^^^^^^^^^^^^^^^^
+  File "<decorator-gen-16>", line 2, in new
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 113, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/loading.py", line 536, in load_modules
+    env['ir.model.data']._process_end(processed_modules)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2558, in _process_end
+    self._process_end_unlink_record(record)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2487, in _process_end_unlink_record
+    record.unlink()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1642, in unlink
+    self._process_ondelete()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1680, in _process_ondelete
+    Model = self.env[selection.field_id.model]
+            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/api.py", line 534, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 213, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'sms_module.attendance'
+2024-07-09 10:39:49,552 28018 INFO LP_TEST werkzeug: 127.0.0.1 - - [09/Jul/2024 10:39:49] "GET / HTTP/1.1" 500 - 192 0.054 0.146
+2024-07-09 10:39:49,691 28018 INFO LP_TEST odoo.modules.loading: loading 1 modules... 
+2024-07-09 10:39:49,697 28018 INFO LP_TEST odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-09 10:39:49,699 28018 INFO LP_TEST odoo.modules.loading: loading 12 modules... 
+2024-07-09 10:39:49,699 28018 INFO LP_TEST odoo.modules.loading: Loading module sms_module (2/12) 
+2024-07-09 10:39:49,728 28018 INFO LP_TEST odoo.modules.loading: loading sms_module/views/views.xml 
+2024-07-09 10:39:49,729 28018 INFO LP_TEST odoo.modules.loading: loading sms_module/views/templates.xml 
+2024-07-09 10:39:49,748 28018 INFO LP_TEST odoo.modules.loading: Module sms_module loaded in 0.05s, 14 queries (+14 other) 
+2024-07-09 10:39:49,757 28018 INFO LP_TEST odoo.modules.loading: 12 modules loaded in 0.06s, 14 queries (+14 extra) 
+2024-07-09 10:39:49,816 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.student is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:39:49,817 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.course is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:39:49,817 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.enrollment is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:39:49,817 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.grade is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:39:49,817 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.attendance is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:39:49,817 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 347@ir.model.constraint (sms_module.constraint_sms_module_attendance_unique_attendance) 
+2024-07-09 10:39:49,820 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_attendance_unique_attendance@sms_module.attendance 
+2024-07-09 10:39:49,827 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6696] 
+2024-07-09 10:39:49,827 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [347] 
+2024-07-09 10:39:49,827 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 346@ir.model.constraint (sms_module.constraint_sms_module_enrollment_unique_enrollment) 
+2024-07-09 10:39:49,829 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_enrollment_unique_enrollment@sms_module.enrollment 
+2024-07-09 10:39:49,833 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6695] 
+2024-07-09 10:39:49,833 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [346] 
+2024-07-09 10:39:49,833 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 345@ir.model.constraint (sms_module.constraint_sms_module_student_unique_student_id) 
+2024-07-09 10:39:49,835 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_student_unique_student_id@sms_module.student 
+2024-07-09 10:39:49,839 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6694] 
+2024-07-09 10:39:49,839 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [345] 
+2024-07-09 10:39:49,839 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 261@ir.model.fields.selection (sms_module.selection__sms_module_attendance__status__absent) 
+2024-07-09 10:39:49,841 28018 WARNING LP_TEST odoo.modules.loading: Transient module states were reset 
+2024-07-09 10:39:49,842 28018 ERROR LP_TEST odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 87, in __new__
+    return cls.registries[db_name]
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "<decorator-gen-5>", line 2, in __getitem__
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+        ~~~~~~^^^^^
+KeyError: 'LP_TEST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 113, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/loading.py", line 536, in load_modules
+    env['ir.model.data']._process_end(processed_modules)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2558, in _process_end
+    self._process_end_unlink_record(record)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2487, in _process_end_unlink_record
+    record.unlink()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1642, in unlink
+    self._process_ondelete()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1680, in _process_ondelete
+    Model = self.env[selection.field_id.model]
+            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/api.py", line 534, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 213, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'sms_module.attendance'
+2024-07-09 10:39:49,843 28018 ERROR LP_TEST odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 87, in __new__
+    return cls.registries[db_name]
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "<decorator-gen-5>", line 2, in __getitem__
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+        ~~~~~~^^^^^
+KeyError: 'LP_TEST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/http.py", line 2173, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/http.py", line 1727, in _serve_db
+    self.registry = Registry(self.db).check_signaling()
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 89, in __new__
+    return cls.new(db_name)
+           ^^^^^^^^^^^^^^^^
+  File "<decorator-gen-16>", line 2, in new
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 113, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/loading.py", line 536, in load_modules
+    env['ir.model.data']._process_end(processed_modules)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2558, in _process_end
+    self._process_end_unlink_record(record)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2487, in _process_end_unlink_record
+    record.unlink()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1642, in unlink
+    self._process_ondelete()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1680, in _process_ondelete
+    Model = self.env[selection.field_id.model]
+            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/api.py", line 534, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 213, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'sms_module.attendance'
+2024-07-09 10:39:49,844 28018 INFO LP_TEST werkzeug: 127.0.0.1 - - [09/Jul/2024 10:39:49] "GET /favicon.ico HTTP/1.1" 500 - 192 0.048 0.108
+2024-07-09 10:39:50,533 28018 INFO LP_TEST odoo.modules.loading: loading 1 modules... 
+2024-07-09 10:39:50,557 28018 INFO LP_TEST odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2024-07-09 10:39:50,561 28018 INFO LP_TEST odoo.modules.loading: loading 12 modules... 
+2024-07-09 10:39:50,561 28018 INFO LP_TEST odoo.modules.loading: Loading module sms_module (2/12) 
+2024-07-09 10:39:50,593 28018 INFO LP_TEST odoo.modules.loading: loading sms_module/views/views.xml 
+2024-07-09 10:39:50,594 28018 INFO LP_TEST odoo.modules.loading: loading sms_module/views/templates.xml 
+2024-07-09 10:39:50,611 28018 INFO LP_TEST odoo.modules.loading: Module sms_module loaded in 0.05s, 14 queries (+14 other) 
+2024-07-09 10:39:50,617 28018 INFO LP_TEST odoo.modules.loading: 12 modules loaded in 0.06s, 14 queries (+14 extra) 
+2024-07-09 10:39:50,668 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.student is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:39:50,668 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.course is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:39:50,668 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.enrollment is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:39:50,668 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.grade is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:39:50,668 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.attendance is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:39:50,669 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 347@ir.model.constraint (sms_module.constraint_sms_module_attendance_unique_attendance) 
+2024-07-09 10:39:50,671 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_attendance_unique_attendance@sms_module.attendance 
+2024-07-09 10:39:50,680 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6696] 
+2024-07-09 10:39:50,680 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [347] 
+2024-07-09 10:39:50,680 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 346@ir.model.constraint (sms_module.constraint_sms_module_enrollment_unique_enrollment) 
+2024-07-09 10:39:50,682 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_enrollment_unique_enrollment@sms_module.enrollment 
+2024-07-09 10:39:50,685 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6695] 
+2024-07-09 10:39:50,685 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [346] 
+2024-07-09 10:39:50,686 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 345@ir.model.constraint (sms_module.constraint_sms_module_student_unique_student_id) 
+2024-07-09 10:39:50,687 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_student_unique_student_id@sms_module.student 
+2024-07-09 10:39:50,691 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6694] 
+2024-07-09 10:39:50,691 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [345] 
+2024-07-09 10:39:50,691 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 261@ir.model.fields.selection (sms_module.selection__sms_module_attendance__status__absent) 
+2024-07-09 10:39:50,694 28018 WARNING LP_TEST odoo.modules.loading: Transient module states were reset 
+2024-07-09 10:39:50,694 28018 ERROR LP_TEST odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 87, in __new__
+    return cls.registries[db_name]
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "<decorator-gen-5>", line 2, in __getitem__
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+        ~~~~~~^^^^^
+KeyError: 'LP_TEST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 113, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/loading.py", line 536, in load_modules
+    env['ir.model.data']._process_end(processed_modules)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2558, in _process_end
+    self._process_end_unlink_record(record)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2487, in _process_end_unlink_record
+    record.unlink()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1642, in unlink
+    self._process_ondelete()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1680, in _process_ondelete
+    Model = self.env[selection.field_id.model]
+            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/api.py", line 534, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 213, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'sms_module.attendance'
+2024-07-09 10:39:50,695 28018 ERROR LP_TEST odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 87, in __new__
+    return cls.registries[db_name]
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "<decorator-gen-5>", line 2, in __getitem__
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+        ~~~~~~^^^^^
+KeyError: 'LP_TEST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/http.py", line 2173, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/http.py", line 1727, in _serve_db
+    self.registry = Registry(self.db).check_signaling()
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 89, in __new__
+    return cls.new(db_name)
+           ^^^^^^^^^^^^^^^^
+  File "<decorator-gen-16>", line 2, in new
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 113, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/loading.py", line 536, in load_modules
+    env['ir.model.data']._process_end(processed_modules)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2558, in _process_end
+    self._process_end_unlink_record(record)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2487, in _process_end_unlink_record
+    record.unlink()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1642, in unlink
+    self._process_ondelete()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1680, in _process_ondelete
+    Model = self.env[selection.field_id.model]
+            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/api.py", line 534, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 213, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'sms_module.attendance'
+2024-07-09 10:39:50,696 28018 INFO LP_TEST werkzeug: 127.0.0.1 - - [09/Jul/2024 10:39:50] "GET / HTTP/1.1" 500 - 192 0.048 0.126
+2024-07-09 10:39:50,808 28018 INFO LP_TEST odoo.modules.loading: loading 1 modules... 
+2024-07-09 10:39:50,813 28018 INFO LP_TEST odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-09 10:39:50,815 28018 INFO LP_TEST odoo.modules.loading: loading 12 modules... 
+2024-07-09 10:39:50,815 28018 INFO LP_TEST odoo.modules.loading: Loading module sms_module (2/12) 
+2024-07-09 10:39:50,848 28018 INFO LP_TEST odoo.modules.loading: loading sms_module/views/views.xml 
+2024-07-09 10:39:50,850 28018 INFO LP_TEST odoo.modules.loading: loading sms_module/views/templates.xml 
+2024-07-09 10:39:50,870 28018 INFO LP_TEST odoo.modules.loading: Module sms_module loaded in 0.06s, 14 queries (+14 other) 
+2024-07-09 10:39:50,876 28018 INFO LP_TEST odoo.modules.loading: 12 modules loaded in 0.06s, 14 queries (+14 extra) 
+2024-07-09 10:39:50,936 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.student is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:39:50,936 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.course is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:39:50,936 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.enrollment is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:39:50,936 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.grade is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:39:50,936 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.attendance is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:39:50,937 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 347@ir.model.constraint (sms_module.constraint_sms_module_attendance_unique_attendance) 
+2024-07-09 10:39:50,939 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_attendance_unique_attendance@sms_module.attendance 
+2024-07-09 10:39:50,948 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6696] 
+2024-07-09 10:39:50,948 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [347] 
+2024-07-09 10:39:50,948 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 346@ir.model.constraint (sms_module.constraint_sms_module_enrollment_unique_enrollment) 
+2024-07-09 10:39:50,950 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_enrollment_unique_enrollment@sms_module.enrollment 
+2024-07-09 10:39:50,954 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6695] 
+2024-07-09 10:39:50,954 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [346] 
+2024-07-09 10:39:50,955 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 345@ir.model.constraint (sms_module.constraint_sms_module_student_unique_student_id) 
+2024-07-09 10:39:50,957 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_student_unique_student_id@sms_module.student 
+2024-07-09 10:39:50,961 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6694] 
+2024-07-09 10:39:50,961 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [345] 
+2024-07-09 10:39:50,961 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 261@ir.model.fields.selection (sms_module.selection__sms_module_attendance__status__absent) 
+2024-07-09 10:39:50,964 28018 WARNING LP_TEST odoo.modules.loading: Transient module states were reset 
+2024-07-09 10:39:50,964 28018 ERROR LP_TEST odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 87, in __new__
+    return cls.registries[db_name]
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "<decorator-gen-5>", line 2, in __getitem__
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+        ~~~~~~^^^^^
+KeyError: 'LP_TEST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 113, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/loading.py", line 536, in load_modules
+    env['ir.model.data']._process_end(processed_modules)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2558, in _process_end
+    self._process_end_unlink_record(record)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2487, in _process_end_unlink_record
+    record.unlink()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1642, in unlink
+    self._process_ondelete()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1680, in _process_ondelete
+    Model = self.env[selection.field_id.model]
+            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/api.py", line 534, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 213, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'sms_module.attendance'
+2024-07-09 10:39:50,965 28018 ERROR LP_TEST odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 87, in __new__
+    return cls.registries[db_name]
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "<decorator-gen-5>", line 2, in __getitem__
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+        ~~~~~~^^^^^
+KeyError: 'LP_TEST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/http.py", line 2173, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/http.py", line 1727, in _serve_db
+    self.registry = Registry(self.db).check_signaling()
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 89, in __new__
+    return cls.new(db_name)
+           ^^^^^^^^^^^^^^^^
+  File "<decorator-gen-16>", line 2, in new
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 113, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/loading.py", line 536, in load_modules
+    env['ir.model.data']._process_end(processed_modules)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2558, in _process_end
+    self._process_end_unlink_record(record)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2487, in _process_end_unlink_record
+    record.unlink()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1642, in unlink
+    self._process_ondelete()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1680, in _process_ondelete
+    Model = self.env[selection.field_id.model]
+            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/api.py", line 534, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 213, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'sms_module.attendance'
+2024-07-09 10:39:50,966 28018 INFO LP_TEST werkzeug: 127.0.0.1 - - [09/Jul/2024 10:39:50] "GET /favicon.ico HTTP/1.1" 500 - 192 0.047 0.114
+2024-07-09 10:39:52,399 28018 INFO LP_TEST odoo.modules.loading: loading 1 modules... 
+2024-07-09 10:39:52,405 28018 INFO LP_TEST odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-09 10:39:52,407 28018 INFO LP_TEST odoo.modules.loading: loading 12 modules... 
+2024-07-09 10:39:52,407 28018 INFO LP_TEST odoo.modules.loading: Loading module sms_module (2/12) 
+2024-07-09 10:39:52,438 28018 INFO LP_TEST odoo.modules.loading: loading sms_module/views/views.xml 
+2024-07-09 10:39:52,439 28018 INFO LP_TEST odoo.modules.loading: loading sms_module/views/templates.xml 
+2024-07-09 10:39:52,461 28018 INFO LP_TEST odoo.modules.loading: Module sms_module loaded in 0.05s, 14 queries (+14 other) 
+2024-07-09 10:39:52,468 28018 INFO LP_TEST odoo.modules.loading: 12 modules loaded in 0.06s, 14 queries (+14 extra) 
+2024-07-09 10:39:52,569 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.student is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:39:52,569 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.course is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:39:52,569 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.enrollment is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:39:52,569 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.grade is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:39:52,569 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.attendance is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:39:52,570 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 347@ir.model.constraint (sms_module.constraint_sms_module_attendance_unique_attendance) 
+2024-07-09 10:39:52,571 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_attendance_unique_attendance@sms_module.attendance 
+2024-07-09 10:39:52,578 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6696] 
+2024-07-09 10:39:52,578 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [347] 
+2024-07-09 10:39:52,578 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 346@ir.model.constraint (sms_module.constraint_sms_module_enrollment_unique_enrollment) 
+2024-07-09 10:39:52,580 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_enrollment_unique_enrollment@sms_module.enrollment 
+2024-07-09 10:39:52,583 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6695] 
+2024-07-09 10:39:52,583 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [346] 
+2024-07-09 10:39:52,584 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 345@ir.model.constraint (sms_module.constraint_sms_module_student_unique_student_id) 
+2024-07-09 10:39:52,585 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_student_unique_student_id@sms_module.student 
+2024-07-09 10:39:52,588 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6694] 
+2024-07-09 10:39:52,588 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [345] 
+2024-07-09 10:39:52,589 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 261@ir.model.fields.selection (sms_module.selection__sms_module_attendance__status__absent) 
+2024-07-09 10:39:52,591 28018 WARNING LP_TEST odoo.modules.loading: Transient module states were reset 
+2024-07-09 10:39:52,591 28018 ERROR LP_TEST odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 87, in __new__
+    return cls.registries[db_name]
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "<decorator-gen-5>", line 2, in __getitem__
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+        ~~~~~~^^^^^
+KeyError: 'LP_TEST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 113, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/loading.py", line 536, in load_modules
+    env['ir.model.data']._process_end(processed_modules)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2558, in _process_end
+    self._process_end_unlink_record(record)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2487, in _process_end_unlink_record
+    record.unlink()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1642, in unlink
+    self._process_ondelete()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1680, in _process_ondelete
+    Model = self.env[selection.field_id.model]
+            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/api.py", line 534, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 213, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'sms_module.attendance'
+2024-07-09 10:39:52,592 28018 ERROR LP_TEST odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 87, in __new__
+    return cls.registries[db_name]
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "<decorator-gen-5>", line 2, in __getitem__
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+        ~~~~~~^^^^^
+KeyError: 'LP_TEST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/http.py", line 2173, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/http.py", line 1727, in _serve_db
+    self.registry = Registry(self.db).check_signaling()
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 89, in __new__
+    return cls.new(db_name)
+           ^^^^^^^^^^^^^^^^
+  File "<decorator-gen-16>", line 2, in new
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 113, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/loading.py", line 536, in load_modules
+    env['ir.model.data']._process_end(processed_modules)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2558, in _process_end
+    self._process_end_unlink_record(record)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2487, in _process_end_unlink_record
+    record.unlink()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1642, in unlink
+    self._process_ondelete()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1680, in _process_ondelete
+    Model = self.env[selection.field_id.model]
+            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/api.py", line 534, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 213, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'sms_module.attendance'
+2024-07-09 10:39:52,593 28018 INFO LP_TEST werkzeug: 127.0.0.1 - - [09/Jul/2024 10:39:52] "GET /favicon.ico HTTP/1.1" 500 - 192 0.045 0.152
+2024-07-09 10:39:55,354 28018 INFO LP_TEST odoo.modules.loading: loading 1 modules... 
+2024-07-09 10:39:55,360 28018 INFO LP_TEST odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-07-09 10:39:55,362 28018 INFO LP_TEST odoo.modules.loading: loading 12 modules... 
+2024-07-09 10:39:55,362 28018 INFO LP_TEST odoo.modules.loading: Loading module sms_module (2/12) 
+2024-07-09 10:39:55,390 28018 INFO LP_TEST odoo.modules.loading: loading sms_module/views/views.xml 
+2024-07-09 10:39:55,391 28018 INFO LP_TEST odoo.modules.loading: loading sms_module/views/templates.xml 
+2024-07-09 10:39:55,410 28018 INFO LP_TEST odoo.modules.loading: Module sms_module loaded in 0.05s, 14 queries (+14 other) 
+2024-07-09 10:39:55,416 28018 INFO LP_TEST odoo.modules.loading: 12 modules loaded in 0.05s, 14 queries (+14 extra) 
+2024-07-09 10:39:55,476 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.student is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:39:55,476 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.course is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:39:55,476 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.enrollment is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:39:55,477 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.grade is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:39:55,477 28018 INFO LP_TEST odoo.modules.loading: Model sms_module.attendance is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-07-09 10:39:55,477 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 347@ir.model.constraint (sms_module.constraint_sms_module_attendance_unique_attendance) 
+2024-07-09 10:39:55,479 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_attendance_unique_attendance@sms_module.attendance 
+2024-07-09 10:39:55,487 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6696] 
+2024-07-09 10:39:55,487 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [347] 
+2024-07-09 10:39:55,487 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 346@ir.model.constraint (sms_module.constraint_sms_module_enrollment_unique_enrollment) 
+2024-07-09 10:39:55,489 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_enrollment_unique_enrollment@sms_module.enrollment 
+2024-07-09 10:39:55,493 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6695] 
+2024-07-09 10:39:55,493 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [346] 
+2024-07-09 10:39:55,494 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 345@ir.model.constraint (sms_module.constraint_sms_module_student_unique_student_id) 
+2024-07-09 10:39:55,495 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Dropped CONSTRAINT sms_module_student_unique_student_id@sms_module.student 
+2024-07-09 10:39:55,498 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [6694] 
+2024-07-09 10:39:55,498 28018 INFO LP_TEST odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [345] 
+2024-07-09 10:39:55,499 28018 INFO LP_TEST odoo.addons.base.models.ir_model: Deleting 261@ir.model.fields.selection (sms_module.selection__sms_module_attendance__status__absent) 
+2024-07-09 10:39:55,501 28018 WARNING LP_TEST odoo.modules.loading: Transient module states were reset 
+2024-07-09 10:39:55,501 28018 ERROR LP_TEST odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 87, in __new__
+    return cls.registries[db_name]
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "<decorator-gen-5>", line 2, in __getitem__
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+        ~~~~~~^^^^^
+KeyError: 'LP_TEST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 113, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/loading.py", line 536, in load_modules
+    env['ir.model.data']._process_end(processed_modules)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2558, in _process_end
+    self._process_end_unlink_record(record)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2487, in _process_end_unlink_record
+    record.unlink()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1642, in unlink
+    self._process_ondelete()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1680, in _process_ondelete
+    Model = self.env[selection.field_id.model]
+            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/api.py", line 534, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 213, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'sms_module.attendance'
+2024-07-09 10:39:55,502 28018 ERROR LP_TEST odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 87, in __new__
+    return cls.registries[db_name]
+           ~~~~~~~~~~~~~~^^^^^^^^^
+  File "<decorator-gen-5>", line 2, in __getitem__
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+        ~~~~~~^^^^^
+KeyError: 'LP_TEST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/http.py", line 2173, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/http.py", line 1727, in _serve_db
+    self.registry = Registry(self.db).check_signaling()
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 89, in __new__
+    return cls.new(db_name)
+           ^^^^^^^^^^^^^^^^
+  File "<decorator-gen-16>", line 2, in new
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 113, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/loading.py", line 536, in load_modules
+    env['ir.model.data']._process_end(processed_modules)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2558, in _process_end
+    self._process_end_unlink_record(record)
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 2487, in _process_end_unlink_record
+    record.unlink()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1642, in unlink
+    self._process_ondelete()
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons/base/models/ir_model.py", line 1680, in _process_ondelete
+    Model = self.env[selection.field_id.model]
+            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/api.py", line 534, in __getitem__
+    return self.registry[model_name](self, (), ())
+           ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/modules/registry.py", line 213, in __getitem__
+    return self.models[model_name]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'sms_module.attendance'
+2024-07-09 10:39:55,503 28018 INFO LP_TEST werkzeug: 127.0.0.1 - - [09/Jul/2024 10:39:55] "GET /favicon.ico HTTP/1.1" 500 - 192 0.049 0.103
+2024-07-09 10:42:54,512 28018 WARNING ? odoo.service.server: Thread <Thread(odoo.service.http.request.137294770079424, started 137294770079424)> virtual real time limit (179/120s) reached. 
+2024-07-09 10:42:54,512 28018 INFO ? odoo.service.server: Dumping stacktrace of limit exceeding threads before reloading 
+2024-07-09 10:42:54,527 28018 INFO ? odoo.tools.misc: 
+# Thread: <Thread(odoo.service.http.request.137294770079424, started 137294770079424)> (db:n/a) (uid:n/a) (url:n/a) (qc:n/a qt:n/a pt:n/a)
+File: "/usr/local/lib/python3.11/threading.py", line 995, in _bootstrap
+  self._bootstrap_inner()
+File: "/usr/local/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+  self.run()
+File: "/usr/local/lib/python3.11/threading.py", line 975, in run
+  self._target(*self._args, **self._kwargs)
+File: "/usr/local/lib/python3.11/socketserver.py", line 691, in process_request_thread
+  self.finish_request(request, client_address)
+File: "/usr/local/lib/python3.11/socketserver.py", line 361, in finish_request
+  self.RequestHandlerClass(request, client_address, self)
+File: "/usr/local/lib/python3.11/socketserver.py", line 755, in __init__
+  self.handle()
+File: "/home/ahmed/PycharmProjects/odoo17/.venv/lib/python3.11/site-packages/werkzeug/serving.py", line 342, in handle
+  BaseHTTPRequestHandler.handle(self)
+File: "/usr/local/lib/python3.11/http/server.py", line 431, in handle
+  self.handle_one_request()
+File: "/home/ahmed/PycharmProjects/odoo17/.venv/lib/python3.11/site-packages/werkzeug/serving.py", line 370, in handle_one_request
+  self.raw_requestline = self.rfile.readline()
+File: "/usr/local/lib/python3.11/socket.py", line 705, in readinto
+  return self._sock.recv_into(b) 
+2024-07-09 10:42:54,527 28018 INFO ? odoo.service.server: Initiating server reload 
+2024-07-09 10:42:54,637 28018 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 3 connections  
+2024-07-09 10:42:55,095 28018 INFO ? odoo: Odoo version 17.0 
+2024-07-09 10:42:55,095 28018 INFO ? odoo: Using configuration file at /home/ahmed/Documents/Laplace/Projects/odoo17/odoo.conf 
+2024-07-09 10:42:55,095 28018 INFO ? odoo: addons paths: ['/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons', '/home/ahmed/.local/share/Odoo/addons/17.0', '/home/ahmed/Documents/Laplace/Projects/odoo17/addons', '/home/ahmed/Documents/Laplace/Projects/odoo17/addons_sms'] 
+2024-07-09 10:42:55,095 28018 INFO ? odoo: database: odoo@default:default 
+2024-07-09 10:42:55,166 28018 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2024-07-09 10:42:55,272 28018 INFO ? odoo.service.server: HTTP service (werkzeug) running on ahmed-HP-ZBook-15-G6:8069 
+2024-07-09 10:44:02,311 28018 INFO ? odoo.service.server: Initiating shutdown 
+2024-07-09 10:44:02,311 28018 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-07-09 10:44:02,333 28018 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2024-07-09 10:44:04,366 28886 INFO ? odoo: Odoo version 17.0 
+2024-07-09 10:44:04,366 28886 INFO ? odoo: Using configuration file at /home/ahmed/Documents/Laplace/Projects/odoo17/odoo.conf 
+2024-07-09 10:44:04,366 28886 INFO ? odoo: addons paths: ['/home/ahmed/Documents/Laplace/Projects/odoo17/odoo/addons', '/home/ahmed/.local/share/Odoo/addons/17.0', '/home/ahmed/Documents/Laplace/Projects/odoo17/addons', '/home/ahmed/Documents/Laplace/Projects/odoo17/addons_sms'] 
+2024-07-09 10:44:04,366 28886 INFO ? odoo: database: odoo@default:default 
+2024-07-09 10:44:04,441 28886 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2024-07-09 10:44:04,549 28886 INFO ? odoo.service.server: HTTP service (werkzeug) running on ahmed-HP-ZBook-15-G6:8069 
+2024-07-09 10:44:27,530 28886 INFO ? odoo.service.server: Initiating shutdown 
+2024-07-09 10:44:27,530 28886 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-07-09 10:44:27,571 28886 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
